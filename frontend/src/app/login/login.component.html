@@ -1,0 +1,41 @@
+<ion-content>
+  <main style="height: 100%" class="ccenter">
+    <div class="login-container">
+
+      <section>
+        <h3>Welcome!</h3>
+        <p>Managing App - 2024</p>
+      </section>
+    
+      <div>
+        <ion-input
+        id="custom-input"
+        label="Username"
+        labelPlacement="floating"
+        [counterFormatter]="customCounterFormatter"
+      ></ion-input>
+      </div>
+      
+      <div>
+        <ion-input
+        id="custom-input"
+        label="Password"
+        type="password"
+        labelPlacement="floating"
+        [counterFormatter]="customCounterFormatter"
+      ></ion-input>
+      </div>
+     
+      <section class="left">
+        <a href="">Forgot password?</a>
+      </section>
+  
+      <ion-button shape="round" expand="full">LOG IN</ion-button>
+  
+      <section>
+        Need an account? <a href="">Create an account here!</a>
+      </section>
+    </div>
+  </main>
+   
+</ion-content>
