@@ -9,7 +9,7 @@ import { LoginRoutingModule } from './login-routing.module';
   imports: [
     CommonModule,
     IonicModule,
-    LoginRoutingModule
+    LoginRoutingModule,
   ]
 })
 export class LoginModule { }

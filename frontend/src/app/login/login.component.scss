@@ -25,9 +25,9 @@ p{
 .login-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #c6e3ff;
+  align-items: start;
+  justify-content: start;
+  background-color: rgba(171, 224, 255, 0.5);
   color: #252525;
   padding: 10%;
   border-radius: 10%;
@@ -36,7 +36,7 @@ p{
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 1px 1px 20px 1px #79797941;
+  box-shadow: 1px 1px 20px 1px #79797914;
 }
 
 .left{
@@ -45,6 +45,10 @@ p{
 
 ion-button {
   display: block;
+  --background: rgba(1, 2, 81, 0.5);
+  color: rgba(171, 224, 255, 0.5);
+  font-weight: 600;
+  height: 10px;
   width: 100%;
   margin-top: 5%;
   margin-bottom: 5%;
